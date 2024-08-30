@@ -1,0 +1,30 @@
+{
+  "name": "testing-jest",
+  "version": "1.0.0",
+  "description": "Unit testing with jest",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com:ntnu-dcst2002/testing-jest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/ntnu-dcst2002/testing-jest/issues"
+  },
+  "homepage": "https://gitlab.com/ntnu-dcst2002/testing-jest#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.24.5",
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "collectCoverage": false,
+    "collectCoverageFrom": [
+      "*.js"
+    ]
+  }
+}
