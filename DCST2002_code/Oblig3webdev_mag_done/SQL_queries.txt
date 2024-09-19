@@ -1,0 +1,29 @@
+//Creating tables and putting in data:
+
+CREATE TABLE mag_lists (
+    listid INT PRIMARY KEY,
+    listtitle VARCHAR(255),
+    completed BOOLEAN
+);
+
+CREATE TABLE mag_tasks (
+    id INT PRIMARY KEY,
+    title VARCHAR(255),
+    listid INT,
+    done BOOLEAN,
+    FOREIGN KEY (listid) REFERENCES mag_lists(listid)
+);
+
+INSERT INTO mag_lists (listid, listtitle, completed)
+VALUES
+    (1, 'Webutvikling', false),
+    (2, 'Operativ-systemer', false),
+    (3, 'Generelt', false);
+
+INSERT INTO mag_tasks (id, title, listid, done)
+VALUES
+    (1, 'Les leksjon', 2, false),
+    (2, 'Møt opp på forelesning', 2, false),
+    (3, 'Gjør øving', 1, false),
+    (4, 'Jobb med REST', 1, false),
+    (5, 'Gå tur ute', 3, false);
