@@ -1,0 +1,31 @@
+{
+  "name": "todo-api",
+  "version": "2.0.0",
+  "description": "Todo REST API with Node and Express",
+  "main": "start.js",
+  "scripts": {
+    "test": "jest --setupFiles ./test/config",
+    "start": "nodemon start.js --exec babel-node --require ./config"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/ntnu-dcst2002/todo-api-v2-with-tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql2": "^3.9.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.5",
+    "@babel/core": "^7.24.5",
+    "@babel/node": "^7.23.9",
+    "@babel/plugin-transform-runtime": "^7.24.3",
+    "@babel/preset-env": "^7.25.4",
+    "axios": "^1.7.7",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0"
+  }
+}
