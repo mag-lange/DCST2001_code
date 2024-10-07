@@ -1,0 +1,35 @@
+{
+  "name": "todo-server",
+  "version": "1.0.0",
+  "description": "A simple Todo REST server",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/server.ts --exec \"npx babel-node -x .ts --require ./config\"",
+    "test": "jest --setupFiles ./test/config.ts"
+  },
+  "browserslist": [
+    "maintained node versions"
+  ],
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverage": true
+  },
+  "dependencies": {
+    "axios": "^1.7.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/node": "^7.25.0",
+    "@babel/preset-env": "^7.25.4",
+    "@babel/preset-typescript": "^7.24.7",
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.12",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4"
+  }
+}

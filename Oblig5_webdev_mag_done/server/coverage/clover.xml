@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1728314545376" clover="3.2.0">
+  <project timestamp="1728314545377" name="All files">
+    <metrics statements="44" coveredstatements="39" conditionals="21" coveredconditionals="15" methods="25" coveredmethods="21" elements="90" coveredelements="75" complexity="0" loc="44" ncloc="44" packages="1" files="4" classes="4"/>
+    <file name="app.ts" path="/Users/mag_lange/Library/CloudStorage/OneDrive-NTNU/NTNU(alive)/3rd. Semester/DCST2002_code/Oblig5webdev_mag/server/src/app.ts">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+    </file>
+    <file name="mysql-pool.ts" path="/Users/mag_lange/Library/CloudStorage/OneDrive-NTNU/NTNU(alive)/3rd. Semester/DCST2002_code/Oblig5webdev_mag/server/src/mysql-pool.ts">
+      <metrics statements="2" coveredstatements="2" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="19" count="12" type="cond" truecount="4" falsecount="0"/>
+    </file>
+    <file name="task-router.ts" path="/Users/mag_lange/Library/CloudStorage/OneDrive-NTNU/NTNU(alive)/3rd. Semester/DCST2002_code/Oblig5webdev_mag/server/src/task-router.ts">
+      <metrics statements="21" coveredstatements="16" conditionals="7" coveredconditionals="6" methods="12" coveredmethods="8"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="13" count="0" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="17" count="2" type="stmt"/>
+      <line num="18" count="2" type="stmt"/>
+      <line num="20" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="21" count="0" type="stmt"/>
+      <line num="26" count="1" type="stmt"/>
+      <line num="27" count="1" type="stmt"/>
+      <line num="28" count="1" type="cond" truecount="4" falsecount="1"/>
+      <line num="29" count="1" type="stmt"/>
+      <line num="31" count="1" type="stmt"/>
+      <line num="32" count="0" type="stmt"/>
+      <line num="33" count="0" type="stmt"/>
+      <line num="36" count="1" type="stmt"/>
+      <line num="37" count="1" type="stmt"/>
+      <line num="39" count="1" type="stmt"/>
+      <line num="40" count="0" type="stmt"/>
+    </file>
+    <file name="task-service.ts" path="/Users/mag_lange/Library/CloudStorage/OneDrive-NTNU/NTNU(alive)/3rd. Semester/DCST2002_code/Oblig5webdev_mag/server/src/task-service.ts">
+      <metrics statements="18" coveredstatements="18" conditionals="10" coveredconditionals="5" methods="12" coveredmethods="12"/>
+      <line num="15" count="2" type="stmt"/>
+      <line num="16" count="2" type="stmt"/>
+      <line num="17" count="2" type="cond" truecount="1" falsecount="1"/>
+      <line num="19" count="2" type="stmt"/>
+      <line num="28" count="1" type="stmt"/>
+      <line num="29" count="1" type="stmt"/>
+      <line num="30" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="32" count="1" type="stmt"/>
+      <line num="43" count="16" type="stmt"/>
+      <line num="44" count="16" type="stmt"/>
+      <line num="45" count="16" type="cond" truecount="1" falsecount="1"/>
+      <line num="47" count="16" type="stmt"/>
+      <line num="56" count="1" type="stmt"/>
+      <line num="57" count="1" type="stmt"/>
+      <line num="58" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="59" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="61" count="1" type="stmt"/>
+      <line num="67" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
